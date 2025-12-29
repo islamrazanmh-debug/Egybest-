@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #0d1117;
+  --primary-color: #e6b31e;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #c9d1d9;
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* تحسين شكل السكرول بار */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0d1117; }
+::-webkit-scrollbar-thumb { background: #161b22; border-radius: 10px; border: 1px solid #e6b31e; }
